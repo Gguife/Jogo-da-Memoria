@@ -5,11 +5,6 @@ Projeto desenvolvido durante o curso da B7Web.
 
 ***
 
-Link do projeto:
-
-
-***
-
 Instalação caso queira instalar:
 npm install
 
