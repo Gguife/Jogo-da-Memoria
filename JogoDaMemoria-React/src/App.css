@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #030461;
+  color: #fff;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.info{
+  height: 80vh;
+  width: 20%;
+}
+.logo-link{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.logo-link img{
+  border-radius: 30px;
+  width: 100px;  
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+.logo-link p{
+  text-align: center;
+  font-size: .5rem;
+  width: 100px;
+}
+.info-area{
+  margin-top: 50px;
+  height: 30vh;
+}
+.grid-area{
+  margin-left: 100px;
+  height: 70vh;
+  display: flex;
+  padding: 20px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+@media (max-width: 1632px){
+  .info{
+    height: 60vh;
+  }
+  .logo-link{
+    padding: 10px;
+  }
+  .logo-link img{
+    border-radius: 20px;
+    width: 80px;  
+  }
+  .logo-link p{
+    font-size: .4rem;
+    width: 80px;
+  }
+  .info-area{
+    margin-top: 20px;
+    height: 20vh;
+  }
+  .grid-area{
+    margin-left: 100px;
+    height: 70vh;
+    display: flex;
+    padding: 20px;
+  }
+  .grid{
+    gap: 10px;
+  }
+}
+@media(max-width: 1440px){
+  .grid-area{
+    margin-left: 100px;
+    height: 50vh;
+    display: flex;
+    padding: 10px;
+  }
+}
+
+@media(max-width: 1024px){
+  .info{
+    height: 60vh;
+    width: 30%;
+  }
+  .logo-link{
+    padding: 10px;
+  }
+  .logo-link img{
+    border-radius: 20px;
+    width: 80px;  
+  }
+  .logo-link p{
+    font-size: .4rem;
+    width: 80px;
+  }
+  .info-area{
+    margin-top: 20px;
+    height: 20vh;
+  }
+  .grid-area{
+    margin-left: 100px;
+    height: 70vh;
+    display: flex;
+    padding: 20px;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}
+@media (max-width: 842px){
+  .container{
+    flex-direction: column
+  }
+  .info{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .logo-link{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    height: 18vh;
+  }
+  .logo-link img{
+    border-radius: 20px;
+    width: 80px;
+    margin-top: 0px;  
+  }
+  .logo-link p{
+    font-size: .5rem;
+    width: 90px;
+  }
+  .info-area{
+    height: 20vh;
+    margin-top: 0;
+    width: 400px;
+    display: flex;
+  }
+  .grid-area{
+    margin-left: 10px;
+    padding: 10px;
+    align-items: center;
+
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+}
+@media(max-width: 652px){
+  .logo-link{
+    width: 300px;
+  }
+  .grid-area{
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .grid{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+}
+@media (max-width: 494px){
+  .info{
+    margin-bottom: 100px;
+  }
+  .logo-link{
+    width: 100px;
+  }
+  .logo-link img{
+    border-radius: 10px;
+    width: 40px;
+    margin-top: 0px;  
+  }
+  .logo-link p{
+    font-size: .3rem;
+    width: 30px;
+  }
+  .grid-area{
+    margin-left: 10px;
+    padding: 10px;
+    height: 50vh;
+    align-items: center;
+  }
+}
